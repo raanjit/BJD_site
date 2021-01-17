@@ -1,0 +1,381 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.chooseLanguage{
+	opacity: 0.8;
+    color: #111;
+    position: fixed;
+    z-index: 99999;
+    height: 100vh;
+    background: #fff;
+    padding: 15% 30%;
+    font-size: 25px;
+    font-weight: 600;
+}
+.pointer{
+	cursor: pointer;
+}
+.languageBox{
+	padding: 15% 0;
+    border: 1px solid;
+    background: #f2f2f2;
+    color: #000;
+    background-image: url(../images/Indian_Election_Symbol_Conch.svg.png);
+    background-size: 100% 100%;
+}
+.btnTransparent{
+    background: transparent; 
+    border: 1px solid #e6e5e5;
+    /*border: transparent;*/
+    padding: 1rem 2rem;
+    border-radius: 5px;   
+    background: #ccc; 
+}
+.btnTransparent:hover {
+	background: #f0f0f0;
+    border: 1px solid #e6e5e5;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: #111;
+}
+.disable{
+	display: none;
+}
+
+.width22 {
+    width: 22px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.p_0 {
+    padding: 0
+}
+
+.headerBar {
+    background: #3A526A;
+    color: #fff;
+}
+
+.p_2 {
+    padding: 2rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #18ba60;
+    text-decoration: none;
+}
+
+.padding_container {
+    padding: 2rem 30rem;
+}
+
+ul {
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    padding: 0rem 0rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #18ba60;
+    background-color: transparent;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #18ba60;
+    background-color: #fff;
+}
+.full_width{
+	width: 100%;
+}
+.jointImage{
+	width: 100%;
+    height: 314px;
+}
+.titleDivider{
+	padding: 0px 15rem;
+    margin: 1rem 0;
+}
+.border{
+	border: 1px solid red;
+}
+.description{
+	color: #000000;
+    font-family: "EB Garamond", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+}
+.aboutMe{
+	margin: 2rem 0;
+    padding: 1rem 3rem;
+    background: #0350d2;
+    color: #fff;
+    font-size: 16px;
+    border: transparent;
+    border-radius: 5px;
+    outline: none;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.display_inline{
+	display: inline-block;
+}
+.facebookName{
+	color: #365899!important;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.358;
+    margin-bottom: -11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.facebookName:hover {
+	text-decoration: underline;
+}
+.likeCount{
+	font-size: 12px;
+    padding-top: 3px;
+}
+.facebookBox{
+	border: 1px solid #ebedf0;
+    padding: 7px;
+}
+.likeShare{
+	background: #f5f6f7;
+    padding: 7px;
+    border-top: 1px solid #ebedf0
+}
+.padBottom30{
+	padding-bottom: 30px;
+}
+.fb_content{
+	background: #f5f6f7;
+    padding: 10px;
+    height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.addresBox{
+	padding: 10px;
+    background: #fff;
+}
+.addressImg{
+	border-radius: 50%;
+    width: 40px;
+}
+.addressDay{
+	color: #a8a5a5;
+    font-size: 12px;
+}
+.addressFbLogo{
+	width: 20px;
+    border-radius: 50%;
+}
+.addressBody{
+	background: #fff;
+    padding: 10px;
+}
+.padBottom5{
+	padding-bottom: 5px;
+}
+.bordeBottom{
+	border-bottom: 1px solid #f0f0f0;
+}
+.pad_5{
+	padding: 5px;
+}
+.likeBtn{
+	font-size: 15px;
+    padding: 7px 10px;
+    color: #837f7f;
+}
+.mar_bottom_5{
+	margin-bottom: 5px;
+}
+.tweetHeading{
+	font-size: 22px;
+}
+.smallFont{
+	font-size: 12px;
+}
+.tweetBody{
+    text-align: justify;
+    width: 86%;
+}
+.mar_left_50{
+	margin-left: 50px;
+}
+.pad_top{
+	padding-top: 40px;
+}
+.tweetContent{
+	width: 86%;
+}
+.tweetBocyContent{
+	height: 512px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.footer{
+	background: #000000;
+    color: #fff;
+}
+.pad_5_0{
+    padding: 5rem 38rem;
+}
+.marTop{
+	margin-top: 50px;
+}
+.leftFooterContent{
+	text-align: justify;
+    padding-right: 90px;
+}
+.padLeft{
+	padding-left: 100px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.marBtm{
+	margin-bottom: 10px;
+}
+.h3, h3 {
+    font-size: 14px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 25px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dropDownBox{
+	position: fixed;
+    z-index: 9999;
+    border-top: 4px solid #18ba60;
+    display: none;
+}
+.dropDownList{
+	width: 180px;
+    padding: 5px 15px;
+    background: #111;
+    color: #fff;
+}
+.dropdown:hover .dropDownBox{
+	display: block
+}
+.dropDownList:hover{
+	background: #18ba60
+}
+.textJustify{
+	text-align: justify;
+}
+.sideContent{
+	color: #000000;
+    font-family: "EB Garamond", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/*aboutme*/
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.arrowClass{
+	margin-top: 214px;
+    font-size: 40px;
+}
+.mission{
+	color: #000000;
+    font-family: "Georgia", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+.year{
+	font-size: 22px;
+    margin-bottom: 20px;
+    color: #18BA60;
+}
+.yearDescription{
+	margin-left: 72px;
+    width: 88%;
+}
+.sideList{
+	margin: 0px 0px 2px 0px;
+    padding: 20px 0px 20px 30px;
+    background-color: #F1F1F1;
+    cursor: pointer;
+}
+.sideList:hover{
+	background-color:#3a5269;
+	color: #fff;
+}
+.sideListActive{
+	margin: 0px 0px 2px 0px;
+    padding: 20px 0px 20px 30px;
+    background-color: #4F5FF6;
+    cursor: pointer;
+    color: #fff
+}
+.anu_img{
+	width: 100%;
+    height: 400px;
+}
