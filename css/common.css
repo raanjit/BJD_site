@@ -363,6 +363,8 @@ li {
     padding: 20px 0px 20px 30px;
     background-color: #F1F1F1;
     cursor: pointer;
+    font-family: "EB Garamond", Sans-serif;
+    font-weight: 700;
 }
 .sideList:hover{
 	background-color:#3a5269;
