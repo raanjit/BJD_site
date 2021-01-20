@@ -534,10 +534,25 @@ h3 {
 }
 
 
+@media only screen and (max-width: 1700px) {
+    .padding_container {
+        padding: 2rem 4rem;
+    }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 10px;
+    }
+}
 
 @media only screen and (max-width: 1440px) {
     .padding_container {
         padding: 2rem 4rem;
+    }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 10px;
     }
 }
 
@@ -580,6 +595,12 @@ h3 {
     .padLeft {
         padding-left: 0px;
         margin-top: 50px;
+    }
+
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 10px;
     }
 }
 
