@@ -88,6 +88,10 @@ a:hover {
     color: #18ba60;
     text-decoration: none;
 }
+.active{
+    color: #18ba60!important;
+    text-decoration: none;
+}
 
 .padding_container {
     padding: 2rem 30rem;
@@ -101,7 +105,7 @@ ul {
 
 li {
     display: inline;
-    padding: 0rem 0rem;
+    padding: 0rem 1rem;
     font-size: 15px;
     font-weight: 600;
 }
@@ -531,6 +535,9 @@ h3 {
     background: #ccc;
     color: #fff;
     margin-bottom: 2px;
+}
+.blkColor{
+    color: #111;
 }
 
 
