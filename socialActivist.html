@@ -20,6 +20,11 @@
                     <a href="mailto:anubhav.mohanty@sansad.nic.in" class="mar_left_50">Email: anubhav.mohanty@sansad.nic.in</a>
                 </div>
                 <div class="col-lg-6 text_right">
+                    <select class="selctTag" name="lang" id="selctedLanguageId">
+                        <option class="blkColor" value="English">English</option>
+                        <option class="blkColor" value="Odia">Odia</option>
+                        <option class="blkColor" value="Hindi">HIndi</option>
+                    </select>
                     <a href="https://www.facebook.com/AMOKendrapara/">
                         <img class="width22" src="images/facebook.png">
                     </a>
@@ -38,31 +43,28 @@
                 <img src="http://65.1.42.232/wp-content/uploads/2021/01/Untitled-design-2-1-1024x214.png" class="full_width">
             </div>
             <div class="col-lg-12 padding_container">
-                <nav class="navbar navbar-inverse">
-                    <div class="container-fluid">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">HOME</a></li>
-                            <li class="active"><a href="#">ABOUT ME</a></li>
-                            <li class="dropdown">
-                                <a href="#">CONSTITUENCY <span class="caret"></span></a>
+                <ul class="text_center">
+                        <li><a class="blkColor" href="#">HOME</a></li>
+                        <li class="active"><a class="blkColor active" href="#">ABOUT ME</a></li>
+                        <li class="drop-down">
+                            <a class="blkColor" href="#">CONSTITUENCY <span class="caret"></span>
                                 <div class="dropDownBox ">
                                     <div class="dropDownList pointer">Activities</div>
                                     <div class="dropDownList pointer">On-Going Works</div>
                                 </div>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">CAMPAIGNING <span class="caret"></span></a>
-                                <div class="dropDownBox ">
-                                    <div class="dropDownList pointer">Organ Donation</div>
-                                    <div class="dropDownList pointer">Blood Donation</div>
-                                </div>
-                            </li>
-                            <li><a href="#">KNOW KENDRAPADA</a></li>
-                            <li><a href="#">GRIEVANCE CELL</a></li>
-                            <li><a href="#">CONTACT US</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                            </a>
+                        </li>
+                        <li class="drop-down">
+                            <a class="blkColor" href="#">CAMPAIGNING <span class="caret"></span></a>
+                            <div class="dropDownBox ">
+                                <div class="dropDownList pointer">Organ Donation</div>
+                                <div class="dropDownList pointer">Blood Donation</div>
+                            </div>
+                        </li>
+                        <li><a class="blkColor" href="#">KNOW KENDRAPADA</a></li>
+                        <li><a class="blkColor" href="#">GRIEVANCE CELL</a></li>
+                        <li><a class="blkColor" href="#">CONTACT US</a></li>
+                    </ul>
             </div>
             <div class="col-lg-12 padding_container">
                 <div class="col-lg-3">
@@ -80,7 +82,7 @@
                         <div class="col-lg-4 p_0">
                             <img class="anu_img" src="http://65.1.42.232/wp-content/uploads/2021/01/WhatsApp-Image-2020-12-17-at-7.03.54-PM.jpeg">
                         </div>
-                        <div class="col-lg-8 textJustify sideContent">Shri Anubhav Mohanty was always inclined towards helping people who are in need as he himself is an emotional person. His life as a social activist started from his childhood itself. He would dedicate whatever time he would get out of his studies, career, family, profession, political responsibilities towards social work and attending to the needy. Shri Anubhav Mohanty has recently started a “Register as an Organ Donor” drive. He himself has pledged/registered to donate his organs. Shri Anubhav Mohanty has also worked extensively for treatment of CLEFT patients and for help of People with disabilities. He has a very special inclination towards helping, supporting & loving Senior Citizens who are ignored and abandoned by their own children for dirty or whatever reasons. Shri Mohanty is an animal lover too. Many examples are there which show how innocent, clean, clear & loveable his heart is.</div>
+                        <div class="col-lg-8 textJustify sideContent">Shri Anubhav Mohanty was always inclined towards helping people who are in need as he himself is an emotional person. His life as a social activist started from his childhood itself. He would dedicate whatever time he would get out of his studies, career, family, profession, political responsibilities towards social work and attending to the needy. Shri Anubhav Mohanty has recently started a “Register as an Organ Donor” drive. He himself has pledged/registered to donate his organs. Shri Anubhav Mohanty has also worked extensively for treatment of CLEFT patients and for help of People with disabilities.<span id="dots">...</span><span id="more"> He has a very special inclination towards helping, supporting & loving Senior Citizens who are ignored and abandoned by their own children for dirty or whatever reasons. Shri Mohanty is an animal lover too. Many examples are there which show how innocent, clean, clear & loveable his heart is.</span><span class="readMore pointer" onclick="myFunction()" id="myBtn">Read more</span></div>
                     </div>
                 </div>
             </div>
@@ -165,6 +167,21 @@
     function closeNav() {
         document.getElementById("mySidebar").style.width = "0";
         document.getElementById("main").style.marginLeft = "0";
+    }
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
     }
     </script>
 </body>

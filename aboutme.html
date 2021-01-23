@@ -37,6 +37,11 @@
                         <a href="mailto:anubhav.mohanty@sansad.nic.in" class="mar_left_50">Email: anubhav.mohanty@sansad.nic.in</a>
                     </div>
                     <div class="col-lg-6 text_right">
+                        <select class="selctTag" name="lang" id="selctedLanguageId">
+                            <option class="blkColor" value="English">English</option>
+                            <option class="blkColor" value="Odia">Odia</option>
+                            <option class="blkColor" value="Hindi">HIndi</option>
+                        </select>
                         <a href="https://www.facebook.com/AMOKendrapara/">
                             <img class="width22" src="images/facebook.png">
                         </a>
@@ -55,29 +60,28 @@
                     <img src="http://65.1.42.232/wp-content/uploads/2021/01/Untitled-design-2-1-1024x214.png" class="full_width">
                 </div>
                 <div class="col-lg-12 padding_container">
-                    
-                            <ul class="text_center">
-                                <li><a class="blkColor" href="#">HOME</a></li>
-                                <li class="active"><a class="blkColor active" href="#">ABOUT ME</a></li>
-                                <li class="dropdown">
-                                    <a class="blkColor" href="#">CONSTITUENCY <span class="caret"></span>
-                                    <div class="dropDownBox ">
-                                        <div class="dropDownList pointer">Activities</div>
-                                        <div class="dropDownList pointer">On-Going Works</div>
-                                    </div></a>
-                                </li>
-                                <li class="dropdown">
-                                    <a class="blkColor" href="#">CAMPAIGNING <span class="caret"></span></a>
-                                    <div class="dropDownBox ">
-                                        <div class="dropDownList pointer">Organ Donation</div>
-                                        <div class="dropDownList pointer">Blood Donation</div>
-                                    </div>
-                                </li>
-                                <li><a class="blkColor" href="#">KNOW KENDRAPADA</a></li>
-                                <li><a class="blkColor" href="#">GRIEVANCE CELL</a></li>
-                                <li><a class="blkColor" href="#">CONTACT US</a></li>
-                            </ul>
-                       
+                    <ul class="text_center">
+                        <li><a class="blkColor active" href="#">HOME</a></li>
+                        <li class="active"><a class="blkColor" href="#">ABOUT ME</a></li>
+                        <li class="drop-down">
+                            <a class="blkColor" href="#">CONSTITUENCY <span class="caret"></span>
+                                <div class="dropDownBox ">
+                                    <div class="dropDownList pointer">Activities</div>
+                                    <div class="dropDownList pointer">On-Going Works</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="drop-down">
+                            <a class="blkColor" href="#">CAMPAIGNING <span class="caret"></span></a>
+                            <div class="dropDownBox ">
+                                <div class="dropDownList pointer">Organ Donation</div>
+                                <div class="dropDownList pointer">Blood Donation</div>
+                            </div>
+                        </li>
+                        <li><a class="blkColor" href="#">KNOW KENDRAPADA</a></li>
+                        <li><a class="blkColor" href="#">GRIEVANCE CELL</a></li>
+                        <li><a class="blkColor" href="#">CONTACT US</a></li>
+                    </ul>
                 </div>
                 <div class="col-lg-12 padding_container">
                     <div class="col-lg-3">
@@ -232,29 +236,21 @@
             </div>
             <div class="col-xs-12 footer p_2 marTop">
                 <div class="col-xs-12 leftFooterContent">
-                        Shri Anubhav Mohanty joined the Biju Janata Dal led by Hon’ble Shri Naveen Patnaik ji on the 27th of April 2013. He was elected unopposed to the Rajya Sabha on 12th June 2014 and was the Youngest Member of Rajya Sabha. On 23 of May 2019, he was elected to the 17th Lok Sabha from Kendrapara Parliamentary Constituency of Odisha by a record winning-margin of more than 1.5 lakh votes.
+                    Shri Anubhav Mohanty joined the Biju Janata Dal led by Hon’ble Shri Naveen Patnaik ji on the 27th of April 2013. He was elected unopposed to the Rajya Sabha on 12th June 2014 and was the Youngest Member of Rajya Sabha. On 23 of May 2019, he was elected to the 17th Lok Sabha from Kendrapara Parliamentary Constituency of Odisha by a record winning-margin of more than 1.5 lakh votes.
+                </div>
+                <div class="col-xs-12 p_0 marTop">
+                    <div class="col-xs-12 marBtm">
+                        <h3>Kendrapara office:</h3>
+                        <div>Nayan Vihar, Duhuria Chhak. POST – Pandery, PS – Kendrapara Sadar, Kendrapara – 754250, Odisha</div>
                     </div>
-                    <div class="col-xs-12 p_0 marTop">
-                        <div class="col-xs-12 marBtm">
-                            <h3>Kendrapara office:</h3>
-                            <div>Nayan Vihar, Duhuria Chhak. POST – Pandery, PS – Kendrapara Sadar, Kendrapara – 754250, Odisha</div>
-                        </div>
-                        <div class="col-xs-12">
-                            <h3>Delhi Office:</h3>
-                            <div>Swarna Jayanti Sadan Deluxe, Talkatora Road, Dr B D Marg, New Delhi – 110 001</div>
-                        </div>
+                    <div class="col-xs-12">
+                        <h3>Delhi Office:</h3>
+                        <div>Swarna Jayanti Sadan Deluxe, Talkatora Road, Dr B D Marg, New Delhi – 110 001</div>
                     </div>
+                </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
     <script type="text/javascript">
     function onClickEnglish() {
         console.log('englaish')
@@ -274,6 +270,7 @@
         bodyElement.classList.remove('disable')
         var bodyElement2 = document.getElementById('mobileContentId')
         bodyElement2.classList.remove('disable')
+        document.getElementById('selctedLanguageId').value='English'
     }
 
     function onClickOriya() {
@@ -294,6 +291,7 @@
         bodyElement.classList.remove('disable')
         var bodyElement2 = document.getElementById('mobileContentId')
         bodyElement2.classList.remove('disable')
+        document.getElementById('selctedLanguageId').value='Odia'
     }
 
     function onClickHindi() {
@@ -314,6 +312,7 @@
         bodyElement.classList.remove('disable')
         var bodyElement2 = document.getElementById('mobileContentId')
         bodyElement2.classList.remove('disable')
+        document.getElementById('selctedLanguageId').value='Hindi'
     }
 
     function openNav() {
